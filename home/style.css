@@ -191,6 +191,8 @@ h2 {
 }
 
 body {  
+  overflow-x: hidden;
+  overflow-y: hidden;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #0c0d0e;
