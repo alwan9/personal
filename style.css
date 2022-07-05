@@ -350,22 +350,87 @@ body.darkmode {
 
 
 /*INDEX-HOME---------------------------footer------------------------*/
-.footer {
-  width: 100%;
-  height: 100px;
-  margin: 0;
-  background-color: rgb(51, 51, 51);
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.footer{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(37, 37, 37);
+}
+.judulF{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 50px;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
 }
 
-.footer p {
-  padding: 20px 80px;
-  background-color: rgb(51, 51, 51);
-  color: white;
-  margin: 20px auto;
-  padding: 20px auto;
+.garis{
+  height: 30px;
+  width: 2px;
+  margin-left: 30px;
+  background-color: white;
+}
+.logoF{
+  width: 27px;
+  margin-left: 30px;
+}
+
+.ket{
+  font-size: 1.3rem;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+/*medsos icon logo*/
+.medsos{
+  margin-left: 50px;
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+.iconItem{
+  width: 30px;
+  margin: 13px;
+}
+.icon{
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.qr{
+  width: 110px;
+  margin-right: 50px;
+}
+.gridUtama{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.design{
   text-align: center;
+  font-size: 25px;
+  margin-top: 110px;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .ket{
+      font-size: 0.9rem;
+  }
+  .qr{
+      width: 70px;
+  }
+  .icon{
+      width: 30px;
+      margin: 20px;
+      display: flex;
+  }
+  .judulF{
+      font-size: 2rem;
+      font-weight: bold;
+      margin-left: 50px;
+      padding-top: 80px;
+      display: flex;
+      align-items: center;
+  }
 }
 
 /*INDEX-HOME-------------------------------navbar------------------------------- */
