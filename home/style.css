@@ -356,10 +356,10 @@ body.darkmode {
   background-color: rgb(37, 37, 37);
 }
 .judulF{
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 600;
   margin-left: 50px;
-  padding-top: 80px;
+  padding-top: 4%;
   display: flex;
   align-items: center;
 }
@@ -407,13 +407,14 @@ body.darkmode {
 .design{
   text-align: center;
   font-size: 25px;
-  margin-top: 110px;
-  padding-bottom: 50px;
+  margin-top: 6%;
+  padding-bottom: 3%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .ket{
-      font-size: 0.9rem;
+      font-size: 0.7rem;
+      padding-right: 70px;
   }
   .qr{
       width: 70px;
@@ -423,13 +424,14 @@ body.darkmode {
       margin: 20px;
       display: flex;
   }
-  .judulF{
-      font-size: 2rem;
-      font-weight: bold;
-      margin-left: 50px;
-      padding-top: 80px;
-      display: flex;
-      align-items: center;
+  .judulF {
+    font-size: calc(0.7rem + 1rem);
+  }
+  .medsos{
+    font-size: 1rem;
+  }
+  .design{
+    font-size: 1rem;
   }
 }
 
