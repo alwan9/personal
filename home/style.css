@@ -8,7 +8,6 @@ video {
   width: 100%;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -64,7 +63,7 @@ video {
   }
 }
 
-.title2{
+.title2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -88,7 +87,7 @@ video {
   }
 }
 
-.deskripsi2{
+.deskripsi2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -121,11 +120,10 @@ img {
   img {
     height: 100%;
   }
-  .grid-item-manipulation{
+  .grid-item-manipulation {
     height: 100%;
     width: 300px;
   }
-
 }
 
 header {
@@ -148,7 +146,6 @@ h1 {
   display: flex;
   font-size: 9vh;
   color: white;
-  
 }
 
 h2 {
@@ -190,7 +187,7 @@ h2 {
   }
 }
 
-body {  
+body {
   overflow-x: hidden;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -203,7 +200,6 @@ body.darkmode {
   background: rgba(252, 252, 252, 0.466);
   color: rgb(0, 0, 0);
 }
-
 
 /*INDEX-HOME--------------------------navbar------------------------*/
 
@@ -226,7 +222,7 @@ body.darkmode {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  height: 5vmax;
+  height: 5.2vmax;
 }
 
 .navbar-links {
@@ -250,7 +246,6 @@ body.darkmode {
   color: white;
   padding: 3rem;
 }
-
 
 .toggle-button {
   position: absolute;
@@ -347,15 +342,13 @@ body.darkmode {
   color: #fff;
 }
 
-
-
 /*INDEX-HOME---------------------------footer------------------------*/
 
-.footer{
+.footer {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(37, 37, 37);
 }
-.judulF{
+.judulF {
   font-size: 3.5rem;
   font-weight: 600;
   margin-left: 50px;
@@ -364,47 +357,47 @@ body.darkmode {
   align-items: center;
 }
 
-.garis{
+.garis {
   height: 30px;
   width: 2px;
   margin-left: 30px;
   background-color: white;
 }
-.logoF{
+.logoF {
   width: 27px;
   margin-left: 30px;
 }
 
-.ket{
+.ket {
   font-size: 1.3rem;
   margin-left: 70px;
   margin-top: 15px;
 }
 /*medsos icon logo*/
-.medsos{
+.medsos {
   margin-left: 50px;
   font-size: 1.4rem;
   margin-top: 40px;
 }
-.iconItem{
+.iconItem {
   width: 30px;
   margin: 13px;
 }
-.icon{
+.icon {
   margin-top: 10px;
   margin-left: 70px;
 }
-.qr{
+.qr {
   width: 110px;
   margin-right: 50px;
 }
-.gridUtama{
+.gridUtama {
   justify-content: space-between;
   display: flex;
   align-items: center;
 }
 
-.design{
+.design {
   text-align: center;
   font-size: 25px;
   margin-top: 6%;
@@ -412,25 +405,25 @@ body.darkmode {
 }
 
 @media screen and (max-width: 720px) {
-  .ket{
-      font-size: 0.7rem;
-      padding-right: 70px;
+  .ket {
+    font-size: 0.7rem;
+    padding-right: 70px;
   }
-  .qr{
-      width: 70px;
+  .qr {
+    width: 70px;
   }
-  .icon{
-      width: 30px;
-      margin: 20px;
-      display: flex;
+  .icon {
+    width: 30px;
+    margin: 20px;
+    display: flex;
   }
   .judulF {
     font-size: calc(0.7rem + 1rem);
   }
-  .medsos{
+  .medsos {
     font-size: 1rem;
   }
-  .design{
+  .design {
     font-size: 1rem;
   }
 }
@@ -516,11 +509,10 @@ body.darkmode {
   transform-origin: left;
 }
 
-
 /* grid-global */
-.grid1{
+.grid1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   background-color: #00000044;
   grid-gap: 5px;
   align-items: center;
@@ -532,86 +524,83 @@ body.darkmode {
   grid-gap: 5px;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
 
-.grid-item-manipulation{
+.grid-item-manipulation {
   height: fit-content;
   float: left;
 }
 
-.grid-manipulation-home{
+.grid-manipulation-home {
   margin: 10%;
   display: grid;
   grid-template-columns: auto auto;
 }
-.grid-manipulation-gallery{
+.grid-manipulation-gallery {
   margin-bottom: 20px;
   display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
-.grid-item-sertifikat{
+.grid-item-sertifikat {
   width: 80%;
   margin: 10%;
 }
 
-.grid-drawing{
+.grid-drawing {
   width: fit-content;
   margin: 10%;
   display: grid;
   grid-template-columns: auto auto;
 }
 
-
-
-
 /* READ MORE AND SEE MORE ---------------------------------------*/
-#more {display: none;}
-.button-read-more{
- margin-left: 10%;
- background-color:white;
- border:1px solid #dcdcdc;
- color:#000000;
- font-family:Arial;
- font-size:15px;
- padding:9px 45px;
+#more {
+  display: none;
+}
+.button-read-more {
+  margin-left: 10%;
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 45px;
 }
 .button-read-more:hover {
-	background-color:transparent;
+  background-color: transparent;
   color: white;
 }
 .button-read-more:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 /* SEE MORE */
 .see-more {
   margin-left: 10%;
-  background-color:white;
-  border:1px solid #dcdcdc;
-  color:#000000;
-  font-family:Arial;
-  font-size:15px;
-  padding:9px 45px;
+  background-color: white;
+  border: 1px solid #dcdcdc;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 9px 45px;
   text-decoration: none;
 }
-.see-more:hover {	
-  background-color:transparent;
+.see-more:hover {
+  background-color: transparent;
   color: white;
 }
 .see-more:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
-
-        
 
 /* --------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 INDEX-GALLERY-art---------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------- */
-.g-manualart{
+.g-manualart {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
@@ -621,4 +610,3 @@ INDEX-GALLERY-art---------------------------------------------------------------
   grid-gap: 10px;
   row-gap: 10px;
 }
-
