@@ -7,7 +7,7 @@
 }
 /* TETX STYLE */
 
-.title2{
+.title2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -30,7 +30,7 @@
   }
 }
 
-.deskripsi2{
+.deskripsi2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -120,7 +120,6 @@ body.darkmode {
   color: rgb(0, 0, 0);
 }
 
-
 /*INDEX-HOME--------------------------navbar------------------------*/
 
 .brand-title-foto {
@@ -142,7 +141,7 @@ body.darkmode {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  height: 5vmax;
+  height: 5.2vmax;
 }
 
 .navbar-links {
@@ -165,9 +164,7 @@ body.darkmode {
   text-decoration: none;
   color: white;
   padding: 3rem;
- 
 }
-
 
 .toggle-button {
   position: absolute;
@@ -263,8 +260,6 @@ body.darkmode {
 .vertical span.destination {
   color: #fff;
 }
-
-
 
 /*INDEX-HOME---------------------------footer------------------------*/
 .footer {
@@ -366,11 +361,10 @@ body.darkmode {
   transform-origin: left;
 }
 
-
 /* grid-global */
-.grid1{
+.grid1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   background-color: #00000044;
   grid-gap: 5px;
   align-items: center;
@@ -382,23 +376,21 @@ body.darkmode {
   grid-gap: 5px;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
-
-
 
 /* --------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 INDEX-GALLERY-sertifikat---------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------- */
 
-.img-sertifikat-item{
+.img-sertifikat-item {
   width: 75%;
   filter: drop-shadow(5px 5px 10px #000);
   margin: 10%;
 }
 
-.g-manualart{
+.g-manualart {
   justify-content: center;
   align-items: center;
   margin: 10%;
