@@ -1,6 +1,5 @@
 /*INDEX-HOME-------------------------general------------------------*/
 
-
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +8,7 @@
 }
 /* TETX STYLE */
 
-.title2{
+.title2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -32,7 +31,7 @@
   }
 }
 
-.deskripsi2{
+.deskripsi2 {
   margin-right: 10%;
   margin-top: 5%;
   margin-left: 10%;
@@ -122,7 +121,6 @@ body.darkmode {
   color: rgb(0, 0, 0);
 }
 
-
 /*INDEX-HOME--------------------------navbar------------------------*/
 
 .brand-title-foto {
@@ -144,7 +142,7 @@ body.darkmode {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  height: 5vmax;
+  height: 5.2vmax;
 }
 
 .navbar-links {
@@ -168,7 +166,6 @@ body.darkmode {
   color: white;
   padding: 3rem;
 }
-
 
 .toggle-button {
   position: absolute;
@@ -265,8 +262,6 @@ body.darkmode {
   color: #fff;
 }
 
-
-
 /*INDEX-HOME---------------------------footer------------------------*/
 .footer {
   width: 100%;
@@ -305,11 +300,6 @@ body.darkmode {
   transform: translateY(0);
   transition: 1.2s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
 }
-
-
-
-
-
 
 @media screen and (max-width: 750px) {
   .menu {
@@ -372,11 +362,10 @@ body.darkmode {
   transform-origin: left;
 }
 
-
 /* grid-global */
-.grid1{
+.grid1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   background-color: #00000044;
   grid-gap: 5px;
   align-items: center;
@@ -388,46 +377,45 @@ body.darkmode {
   grid-gap: 5px;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
 
-.grid-item-manipulation{
+.grid-item-manipulation {
   height: fit-content;
   float: left;
 }
 
-.grid-manipulation-home{
+.grid-manipulation-home {
   margin: 10%;
   display: grid;
   grid-template-columns: auto auto;
 }
-.grid-manipulation-gallery{
+.grid-manipulation-gallery {
   margin-bottom: 20px;
   display: grid;
-  grid-template-columns:  repeat(auto-fit, minmax(310px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
-
 
 /* --------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------
 INDEX-GALLERY-manipulation---------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------- */
 
-.g-manipulation{
+.g-manipulation {
   position: relative;
   width: 70%;
   align-items: center;
   margin: 15%;
   justify-content: center;
 }
-.manipulation-item{
+.manipulation-item {
   filter: drop-shadow(9px 3px 13px #000);
   display: flex;
   height: auto;
   overflow: hidden;
 }
 
-.g-manipulation img{
+.g-manipulation img {
   width: 100%;
 }
 
@@ -440,7 +428,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/1.0.jpg);
@@ -448,7 +436,6 @@ INDEX-GALLERY-manipulation------------------------------------------------------
 .g-manipulation:hover .overlay-1 {
   opacity: 1;
 }
-
 
 .overlay-2 {
   align-items: center;
@@ -459,7 +446,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/2.0.jpg);
@@ -477,7 +464,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/3.0.jpg);
@@ -495,7 +482,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/4.0.jpg);
@@ -503,7 +490,6 @@ INDEX-GALLERY-manipulation------------------------------------------------------
 .g-manipulation:hover .overlay-4 {
   opacity: 1;
 }
-
 
 .overlay-5 {
   align-items: center;
@@ -514,7 +500,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/5.0.jpg);
@@ -532,7 +518,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/6.0.jpg);
@@ -550,7 +536,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/7.0.jpg);
@@ -568,7 +554,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/8.0.jpg);
@@ -586,7 +572,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .9s ease;
+  transition: 0.9s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/9.0.jpg);
@@ -604,7 +590,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .10s ease;
+  transition: 0.1s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/10.0.jpg);
@@ -622,7 +608,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .10s ease;
+  transition: 0.1s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/11.0.jpg);
@@ -640,7 +626,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .10s ease;
+  transition: 0.1s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/12.0.jpg);
@@ -657,7 +643,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .10s ease;
+  transition: 0.1s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/13.0.jpg);
@@ -674,7 +660,7 @@ INDEX-GALLERY-manipulation------------------------------------------------------
   left: 0;
   right: 0;
   opacity: 0;
-  transition: .10s ease;
+  transition: 0.1s ease;
   background-position: center;
   background-size: cover;
   background-image: url(manipulation/14.0.jpg);
