@@ -86,20 +86,14 @@ h1 {
   color: white;
 }
 
-h2 {
-  color: white;
-  font-size: 2vh;
-  font-weight: 200;
-}
+
 
 @media (max-width: 48rem) {
   h1 {
     font-size: calc(1rem + 2rem);
   }
 
-  h2 {
-    font-size: calc(0.2rem + 0.6rem);
-  }
+
 
   .title {
     font-size: calc(1rem + 2rem);
