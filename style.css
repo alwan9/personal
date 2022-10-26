@@ -65,8 +65,8 @@ video {
 
 .title2 {
   margin-right: 10%;
-  margin-top: 5%;
   margin-left: 10%;
+  padding-top: 10%;
   margin-bottom: 5%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 7vh;
@@ -129,7 +129,7 @@ img {
 header {
   width: 100vw;
   height: 100vh;
-  background-image: url(bg3.png);
+  background-image: url(bg1.jpg);
   background-position: bottom;
   background-size: cover;
   display: flex;
