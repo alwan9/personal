@@ -3,13 +3,6 @@ function setDarkMode(isDark) {
   var darkBtn = document.getElementById('darkBtn')
   var lightBtn = document.getElementById('lightBtn')
 
-  if(isDark) {
-      lightBtn.style.display = "block"
-      darkBtn.style.display = "none"
-  } else {
-      lightBtn.style.display = "none"
-      darkBtn.style.display = "block"
-  }
 
   document.body.classList.toggle("darkmode");
 }
@@ -23,6 +16,9 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
 });
+
+
+
 //read more
 
 function myFunction() {
@@ -32,11 +28,11 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more"; 
+    btnText.innerHTML = "Read more";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less"; 
+    btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
   }
 }
