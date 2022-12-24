@@ -1,10 +1,11 @@
-<html lang="en">
+<html lang="en" class="scroll-smooth ">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>artworkhex</title>
+  <title>alwan_portofolio</title>
+  <link href="src/output.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="./style.css">
   <script src="script.js"></script>
@@ -17,39 +18,37 @@
     <div id="theme"></div>
     <a onclick="setDarkMode(true)" id="darkBtn" class="">light</a>
     <a onclick="setDarkMode(false)" id="lightBtn" class="">dark</a>
-    <a href="https://www.instagram.com/a_zlsl/?utm_medium=copy_link">instagram</a>
+    <a href="#">instagram</a>
     <span class="destination">my website</span>
   </div>
   </div>
 </head>
 
-<body>
-  <nav class="navbar">
-    <input type="checkbox" id="burger-toggle" />
-    </label>
-    <a href="../index.html"><img class="brand-title-foto" src="navbar/logo.png" alt="" /></a>
-
-    <div class="navbar-links">
-      <ul>
-        <li><a href="manipulasi/index.html">Manipulation</a></li>
-        <li><a href="manualart/index.html">Gallery</a></li>
-        <li><a href="uiux/index.html">UI/UX</a></li>
-        <li><a class="navbar-pojok" href="penghargaan/index.html">Sertifikat</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!------------------------------------------------------->
-
-  <header>
-    <div class="bgheader">
-      <h1>
-        ARTWORKHEX
-      </h1>
+<body class="text-white bg-black">
+  <!-- navbar -->
+  <header class="w-screen h-screen bg-no-repeat bg-center bg-cover">
+    <nav class="flex justify-between items-center  lg1:px-5 lg1:py-2 z-50 fixed w-screen text-center ">
+      <img class=" lg1:w-[150px] mr-3 " src="asset/logo.png" alt="">
+      <div class="flex ">
+        <div id="jasa" class="lg1:mx-2 hover:text-neutral-300 ">Jasa</div>
+        <div id="kemampuan" class="lg1:mx-2 hover:text-neutral-300 ">Competence</div>
+        <div id="design" class="lg1:mx-2 hover:text-neutral-300 ">Design</div>
+        <div id="achivement" class="lg1:mx-2 hover:text-neutral-300 ">Achivement</div>
+      </div>
+      <div class="flex bg-zinc-700 lg1:px-3 lg1:py-2 rounded-md items-center  ">
+        <div class="text-sm lg1:mr-3">whatsApp</div>
+        <img class="lg1:w-[20px]" src="asset/whatsapp.png" alt="">
+      </div>
+    </nav>
+    <!-- judul utama halaman -->
+    <div class="lg1:text-7xl lg1:pl-16 lg1:pb-10 bottom-0 left-0  font-bold absolute ">
+      <span class="hover:text-neutral-500 ">ART</span>
+      <span class="hover:text-neutral-600 ">WORK</span>
+      <span class="hover:text-neutral-700 ">HEX</span>
     </div>
   </header>
 
-  <!--grid1-->
+  <!-- about me / grid 1 -->
   <div class="grid1">
     <div class="grid-item1">
       <img class="image1" src="asset/img1.jpg" alt="">
@@ -79,10 +78,8 @@
   </div>
   </div>
 
-
-  <!--grid1-->
-  <div class="grid1">
-
+  <!-- jasa design / grid 1 -->
+  <div id="jasa" class="grid1">
     <div class="grid-item1">
       <div class="title1">
         JASA
@@ -93,17 +90,11 @@
         kami menyediakan jasa desain grafis untuk berbagai keperluan seperti brosur, logo, pamflet, bener, id card, dan
         lain lain. silahkan hubungi kami dengan mengetik link dibawah ini
         <br><br>
-
         <div>
-          <a class="jDesain" href="wa.me/+6281283505272">Whatspp</a>
+          <a class="jDesain" href="#">Whatspp</a>
           |
-          <a class="jDesain" href="hafizsusilo86@gmail.com">Gmail</a>
+          <a class="jDesain" href="#">Gmail</a>
         </div>
-
-
-
-
-
       </div>
     </div>
     <div class="grid-item1">
@@ -112,17 +103,17 @@
   </div>
   </div>
 
-  <!---grid2-->
-  <div class="grid2">
+  <!--- manipulation / grid 2 -->
+  <div id="kemampuan" class="grid2">
     <div class="grid-item1">
       <div class="title2">
-        MANIPULATION
+        MANIPULATION PHOTOSHOP
       </div>
       <div class="deskripsi2">
         Manipulasi adalah teknik menggabungkan beberapa object yang akan menciptakan
         suatu hal yang baru
       </div>
-      <a href="manipulasi/index.html" class="see-more">See more...</a>
+      <a href="#" class="see-more">See more...</a>
     </div>
     <div class="grid-item2">
       <div class="grid-manipulation-home">
@@ -132,7 +123,7 @@
     </div>
   </div>
 
-  <!--grid1-->
+  <!-- drawing / grid 1 -->
   <div class="grid1">
     <div class="grid-drawing">
       <img class="grid-item-draw" src="asset/draw/1.jpg" alt="">
@@ -142,33 +133,34 @@
     </div>
     <div class="grid-item1">
       <div class="title1">
-        DRAWING
+        DRAWING OR ARTIST
       </div>
       <div class="deskripsi1">
         Skill menggambar yang cukup saya senangi dari kecil hingga saat ini
       </div>
-      <a href="manualart/index.html" class="see-more">See more...</a>
+      <a href="#" class="see-more">See more...</a>
     </div>
   </div>
   </div>
 
-  <!---grid2-->
-  <div class="grid2">
+  <!--- achievement / grid 2 -->
+  <div id="achivement" class="grid2">
     <div class="grid-item1">
       <div class="title2">
-        SERTIFIKAT
+        ACHIEVEMENT
       </div>
       <div class="deskripsi2">
         Penghargaan lomba dan webinar yang pernah saya ikuti
       </div>
-      <a href="penghargaan/index.html" class="see-more">See more...</a>
+      <a href="#" class="see-more">See more...</a>
     </div>
     <div class="grid-item2">
       <img class="grid-item-sertifikat" src="asset/sertifikat/2.0.jpg" alt="">
     </div>
   </div>
 
-  <!--grid1-->
+
+  <!-- web design / grid 1 -->
   <div class="grid1">
     <div class="grid-drawing">
       <img class="grid-item-draw" src="asset/uiux/0.jpg" alt="">
@@ -180,47 +172,57 @@
       <div class="deskripsi1">
         menggunakan HTML,CSS dan JAVASCRIPT
       </div>
-      <a href="uiux/index.html" class="see-more">See more...</a>
+      <a href="#" class="see-more">See more...</a>
     </div>
   </div>
   </div>
 
+  <!--- design / grid 2 -->
+  <div id="design" class="grid2">
+    <div class="grid-item1">
+      <div class="title2">
+        MY DESIGN
+      </div>
+      <div class="deskripsi2">
+        Penghargaan lomba dan webinar yang pernah saya ikuti
+      </div>
+      <a href="#" class="see-more">See more...</a>
+    </div>
+    <div class="grid-item2">
+      <img class="grid-item-sertifikat" src="asset/sertifikat/2.0.jpg" alt="">
+    </div>
+  </div>
 
 
-  <br><br><br>
-  <br /><br /><br /><br /><br />
-  <div class="footer">
-    <div class="judulF">
+  <!-- footer -->
+  <div class=" px-7 lg1:px-10 pt-5  ">
+    <div class="font-bold text-sm  lg1:text-4xl flex items-center mb-4">
       ARTWORKHEX
-      <div class="garis"></div>
-      <img class="logoF" src="asset/2.png" alt="" />
+      <div class="bg-white w-[2px] h-[20px]  mx-4 lg1:h-[30px] lg1:mx-7  "></div>
+      <img class="w-[15px] lg1:w-[25px]  " src="asset/2.png" alt="" />
     </div>
-    <div class="ket">
+    <div class="text-xs sm1:text-sm lg1:text-base">
       Dibuat pada tahun 2019 oleh Alwan dalam bidang desain. Saat ini saya
       fokus dalam Web desain/uiux menggunakan HTML, CSS dan JAVASCRIPT.
       <br /><br />
       Semoga anda puas dengan hasilnya
     </div>
-    <div class="gridUtama">
-      <div class="grid">
-        <div class="medsos">FOLLOW ME AT</div>
-        <div class="icon">
-          <a href="https://www.instagram.com/zzls__/?igshid=YmMyMTA2M2Y%3D">
-            <img class="iconItem" src="asset/icon/1.png" alt="" />
-          </a>
-          <a href="https://youtube.com/channel/UChSq1GJ6ikwdUflQk5LE9Aw">
-            <img class="iconItem" src="asset/icon/2.png" alt="" />
-          </a>
-          <a href="https://www.facebook.com/Hafisas0/">
-            <img class="iconItem" src="asset/icon/3.png" alt="" />
-          </a>
-          <a href="https://github.com/alwan9">
-            <img class="iconItem" src="asset/icon/4.png" alt="" />
-          </a>
-        </div>
-      </div>
+    <div class="font-bold mb-2 mt-5 text-xs lg1:text-xl ">FOLLOW ME AT</div>
+    <div class="flex ml-1 md1:ml-2">
+      <a href="#">
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/1.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/2.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/3.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/4.png" alt="" />
+      </a>
     </div>
-    <div class="design">Design by alwan l Coppyright 2022</div>
+    <div class="text-xs text-center ">Design by alwan l Coppyright 2022</div>
   </div>
 </body>
 
