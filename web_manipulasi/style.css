@@ -1,0 +1,334 @@
+body {
+  overflow-x: hidden;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f1011;
+  color: rgb(255, 255, 255);
+}
+
+/* darkmode */
+body.darkmode {
+  background: rgba(70, 70, 70, 0.466);
+}
+
+/* grid-global */
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  background-color: #00000044;
+  grid-gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid2 {
+  justify-content: center;
+  grid-gap: 5px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.grid-item-manipulation {
+  height: fit-content;
+  float: left;
+}
+
+.grid-manipulation-home {
+  margin: 10%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-manipulation-gallery {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+
+/* manipulasi konten */
+.g-manipulation {
+  position: relative;
+  width: 70%;
+  align-items: center;
+  margin: 15%;
+  justify-content: center;
+}
+
+.manipulation-item {
+  filter: drop-shadow(9px 3px 13px #000);
+  display: flex;
+  height: auto;
+  overflow: hidden;
+}
+
+.g-manipulation img {
+  width: 100%;
+}
+
+.overlay-1 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/1.0.jpg);
+}
+
+.g-manipulation:hover .overlay-1 {
+  opacity: 1;
+}
+
+.overlay-2 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/2.0.jpg);
+}
+
+.g-manipulation:hover .overlay-2 {
+  opacity: 1;
+}
+
+.overlay-3 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/3.0.jpg);
+}
+
+.g-manipulation:hover .overlay-3 {
+  opacity: 1;
+}
+
+.overlay-4 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/4.0.jpg);
+}
+
+.g-manipulation:hover .overlay-4 {
+  opacity: 1;
+}
+
+.overlay-5 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/5.0.jpg);
+}
+
+.g-manipulation:hover .overlay-5 {
+  opacity: 1;
+}
+
+.overlay-6 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/6.0.jpg);
+}
+
+.g-manipulation:hover .overlay-6 {
+  opacity: 1;
+}
+
+.overlay-7 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/7.0.jpg);
+}
+
+.g-manipulation:hover .overlay-7 {
+  opacity: 1;
+}
+
+.overlay-8 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/8.0.jpg);
+}
+
+.g-manipulation:hover .overlay-8 {
+  opacity: 1;
+}
+
+.overlay-9 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.9s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/9.0.jpg);
+}
+
+.g-manipulation:hover .overlay-9 {
+  opacity: 1;
+}
+
+.overlay-10 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.1s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/10.0.jpg);
+}
+
+.g-manipulation:hover .overlay-10 {
+  opacity: 1;
+}
+
+.overlay-11 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.1s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/11.0.jpg);
+}
+
+.g-manipulation:hover .overlay-11 {
+  opacity: 1;
+}
+
+.overlay-12 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.1s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/12.0.jpg);
+}
+
+.g-manipulation:hover .overlay-12 {
+  opacity: 1;
+}
+
+.overlay-13 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.1s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/13.0.jpg);
+}
+
+.g-manipulation:hover .overlay-13 {
+  opacity: 1;
+}
+
+.overlay-14 {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.1s ease;
+  background-position: center;
+  background-size: cover;
+  background-image: url(asset/manipulation/14.0.jpg);
+}
+
+.g-manipulation:hover .overlay-14 {
+  opacity: 1;
+}
