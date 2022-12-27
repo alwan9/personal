@@ -39,4 +39,4 @@ function myFunction() {
 
 
 
-// slider
+// animasi header

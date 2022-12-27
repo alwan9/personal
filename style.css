@@ -133,15 +133,10 @@ header {
   background-image: url(asset/bg1.jpg);
   background-position: bottom;
   background-size: cover;
-  display: flex;
-  text-align: left;
-  align-items: flex-end;
+
 }
 
-.bgheader {
-  margin-bottom: 5%;
-  margin-left: 7%;
-}
+
 
 h1 {
   display: flex;
@@ -336,10 +331,6 @@ body.darkmode {
 
 /*INDEX-HOME---------------------------footer------------------------*/
 
-.footer {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(37, 37, 37);
-}
 
 .judulF {
   font-size: 3.5rem;
@@ -621,3 +612,6 @@ INDEX-GALLERY-art---------------------------------------------------------------
   grid-gap: 10px;
   row-gap: 10px;
 }
+
+
+/* animasi header */
