@@ -652,7 +652,7 @@ video {
 }
 
 header {
-  background-image: url(/asset/bg2.jpg);
+  background-image: url(../asset/bg2.jpg);
 }
 
 nav {
