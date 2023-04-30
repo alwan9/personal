@@ -12,6 +12,9 @@ module.exports = {
       lg1: "776px",
       xl: "1240px",
     },
+    backgroundImage: {
+      'bg-header': "url('asset/bg/bg2.png')",
+    },
   },
   plugins: [],
 }
