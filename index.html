@@ -10,6 +10,15 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" href="asset/logoB.png" media="(prefers-color-scheme: light)">
   <link rel="icon" href="asset/logoW.png" media="(prefers-color-scheme: dark)">
+  <!-- Google tag (gtag.js) - google analistc -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SF3X5FMKRM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SF3X5FMKRM');
+</script>
   <script src="script.js"></script>
   <!-- <script>
     alert("website dalam masa maintenance, maaf apabila terjadi bug atau malah lainnya")
@@ -42,15 +51,15 @@
 
 
       <div class="flex items-center ">
-        <div class="hidden text-xs md1:text-sm sm1:block my-1 xs1:my-2 mx-3 md1:mx-4 hover:font-bold "> <a href="#jasa">
+        <div class="hidden text-xs md1:text-sm sm1:block my-1 xs1:my-2 mx-3 md1:mx-4 hover:scale-110 hover:text-sky-200 "> <a href="#jasa">
             Jasa</a></div>
-        <div class="hidden text-xs md1:text-sm md1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:font-bold "> <a
+        <div class="hidden text-xs md1:text-sm md1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-110 hover:text-sky-200 "> <a
             href="#kemampuan">
             Competence</a></div>
-        <div class="hidden text-xs md1:text-sm sm1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:font-bold "> <a
+        <div class="hidden text-xs md1:text-sm sm1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-110 hover:text-sky-200 "> <a
             href="#design">
             Design</a></div>
-        <div class="hidden text-xs md1:text-sm lg1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:font-bold "> <a
+        <div class="hidden text-xs md1:text-sm lg1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-110 hover:text-sky-200 "> <a
             href="#achivement">
             Achivement</a></div>
           </div>
@@ -58,11 +67,11 @@
 <div>
         <!-- icon whatsapp  -->
         <div class="flex bg-neutral-500 bg-opacity-70 rounded-md items-center px-2 py-1  ">
-          <div class="hidden xs1:block text-xs   mr-2 md1:text-sm lg1:mr-5  hover:font-bold "> <a
+          <div class="hidden xs1:block text-xs   mr-2 md1:text-sm lg1:mr-5  hover:scale-110 hover:text-sky-200 "> <a
               href="https://wa.me/+6288216760774">
               WhatsApp</a></div>
           <a href="https://wa.me/+6288216760774">
-            <img class="w-[15px] xs1:w-[16px] sm1:w-[17px] md1:w-[18px]  lg1:w-[20px]" src="asset/whatsapp.png" alt="">
+            <img class="w-[15px] xs1:w-[16px] sm1:w-[17px] md1:w-[18px]  lg1:w-[20px] hover:scale-110" src="asset/whatsapp.png" alt="">
           </a>
         </div>
     </nav>
@@ -70,55 +79,60 @@
     <!-- judul utama halaman -->
     <div
       class="pl-4 pb-3 xs1:text-lg sm1:text-3xl md1:text-5xl flex lg1:text-7xl lg1:pl-16 lg1:pb-10 bottom-0 left-0  font-bold absolute  ">
-      <div class="hover:text-blue-300 ">ART</div>
+      <div class="hover:text-blue-200  text-blue-300">ART</div>
       <div class="hover:text-blue-300 ">WORK</div>
       <div class="hover:text-blue-300 ">HEX</div>
     </div>
   </header>
 
   <!-- about me / grid 1 -->
-  <div class="grid1">
-    <div class="grid-item1">
-      <img class="image1" src="asset/bg/profil2.png" alt="">
-    </div>
-    <div class="grid-item1">
-      <div class="title1">
-        ABOUT ME
+  <div class=" flex flex-col-reverse lg1:flex-row pt-[100px] items-center  ">
+    <!-- item1 -->
+    <div class=" px-7 lg1:pl-10 ">
+      <div class="title1 font-bold text-2xl lg1:text-5xl">
+        Who am I ?
       </div>
-      <div class="deskripsi1">
-       Introduce me Hafiz Alwan and you can call me as Alwan.
+      <div class="animasi1 font-extralight text-xl lg1:text-2xl  ">
+        Hii... my name's Hafiz Alwan and you can call me Alwan. I live in Purwokerto. 
         <br>
-     I was born in the city of Purwokerto
-        <br><br>
-        I once won a provincial level FLS2N competition in junior high school in the field of photoshop manipulation in 2021
-        <span id="dots">...</span>
+        I've won the FLS2N category manipulation photoshop  for JHS in 2021. 
+       
+       
+        <span id="dots">
+          <div class="button-read-more text-blue-400 font-extrabold " onclick="myFunction()" id="myBtn">Read more... </div>
+        </span>
+       
         <span id="more">
           <br><br>
-        I master various computer software including Premier pro, Photoshop, Adobe illustrator and Adobe
-          family lainnya.
+          I skilled in various software computer like Premier pro, Photoshop, Adobe Illustrator and other Adobe family. 
           <br><br>
-        My hobby is drawing and I often use visual techniques to understand things.
+          My hobby is drawing and I often use visual technique to understand something.
+        <div class="button-read-more text-blue-400 font-extrabold " onclick="myFunction()" id="myBtn">Less more...</div>
         </span>
       </div>
-      <button class="button-read-more" onclick="myFunction()" id="myBtn">Read more...</button>
+    </div>
+    <!-- item2 -->
+    <div class="">
+      <img class=" pl-28  md1:w-[700px]  lg1:w-[1100px] right-0 mb-11" src="asset/mockup1.png" alt="">
     </div>
   </div>
   </div>
 
-  <!-- jasa design / grid 1 -->
-  <div id="jasa" class="grid1">
-    <div class="grid-item1">
-      <div class="title1">
-        Jasa
+  <!-- jasa design -->
+  <div id="jasa" class="text-center bg-neutral-900 px-6 lg1:px-12 py-3  lg1:py-8 mt-28 ">
+<!-- judul -->
+      <div class="font-bold text-2xl lg1:text-3xl  ">
+        Graphic Design Services
         <br>
-        Desain Grafis
+        <br>
       </div>
-      <div class="deskripsi1">
-       We provide graphic design services for various purposes such as brochures, logos, pamphlets, posters, id cards, and so on
-        etc. I master design software such as Adobe Photoshop, Premier Pro, Corel Draw, Adobe Illustrator.
-        Please contact us by typing the link below or pressing the WhatsApp logo in the upper right corner
-        this website.
-        <br><br>
+<!-- deskripsi -->
+      <div class="text-sm md1:text-base lg1:text-xl font-extralight  ">
+        We provide graphic designer service for various needs like brochure, logos, pamphlet, poster, id card, etc. 
+        <span class="hidden md1:block">I skilled in various software computer like Premier Pro, Photoshop, Adobe Illustrator and other Adobe family. </span>
+        Please contact us by clicking on the link below this or pressing the whatsapp logo in the upper right corner of this site.
+      
+       
         <div>
           <a class="jDesain" href="https://wa.me/+6287739860106">Whatspp</a>
           |
@@ -126,19 +140,16 @@
         </div>
       </div>
     </div>
-    <div class="grid-item1">
-      <img class="image1" src="asset/img2.png" alt="">
-    </div>
-  </div>
-  </div>
+
+
 
   <!--- manipulation / grid 2 -->
-  <div id="kemampuan" class="grid2">
-    <div class="grid-item1">
-      <div class="title2">
+  <div id="kemampuan" class="grid2 px-6 lg1:px-12 py-10">
+    <div class="grid-item1 py-7 md1:py-0  ">
+      <div class="title2 text-2xl lg1:text-5xl font-bold">
         Manipulasi Photoshop
       </div>
-      <div class="deskripsi2">
+      <div class="animasi2 font-extralight text-xl lg1:text-2xl mb-5 ">
         Manipulation is a technique of combining several objects that will create
         something new
       </div>
@@ -153,18 +164,18 @@
   </div>
 
   <!-- drawing / grid 1 -->
-  <div class="grid1">
+  <div class="grid2 px-6 lg1:px-12 py-10 bg-sky-950 ">
     <div class="grid-drawing">
       <img class="grid-item-draw" src="asset/draw/1.jpg" alt="">
       <img class="grid-item-draw" src="asset/draw/6.jpg" alt="">
       <img class="grid-item-draw" src="asset/draw/3.jpg" alt="">
       <img class="grid-item-draw" src="asset/draw/13.jpg" alt="">
     </div>
-    <div class="grid-item1">
-      <div class="title1">
+    <div class="grid-item1 py-7 md1:py-0  px-0 md1:px-10 ">
+      <div class="title1 font-bold text-2xl lg1:text-5xl">
         Artist and Drawing
       </div>
-      <div class="deskripsi1">
+      <div class="animasi1 font-extralight text-xl lg1:text-2xl mb-5">
       Drawing skill that I quite enjoy from childhood until now
       </div>
       <a href="web_manualart/index.html" class="see-more">See more...</a>
@@ -173,12 +184,12 @@
   </div>
 
   <!--- achievement / grid 2 -->
-  <div id="achivement" class="grid2">
-    <div class="grid-item1">
-      <div class="title2">
+  <div id="achivement" class="grid2 px-6 lg1:px-12 py-10">
+    <div class="grid-item1 py-7 md1:py-0  ">
+      <div class="title2 text-2xl lg1:text-5xl font-bold">
         Achievement
       </div>
-      <div class="deskripsi2">
+      <div class="animasi2 font-extralight text-xl lg1:text-2xl mb-5">
        Competition awards and webinars that I have participated in
       </div>
       <a href="web_penghargaan/index.html" class="see-more">See more...</a>
@@ -190,30 +201,30 @@
 
 
   <!-- web design / grid 1 -->
-  <div class="grid1">
+  <div class="grid2 px-6 lg1:px-12 py-10">
     <div class="grid-drawing">
       <img class="grid-item-draw" src="asset/uiux/0.jpg" alt="">
     </div>
-    <div class="grid-item1">
-      <div class="title1">
+    <div class="grid-item1 py-7 md1:py-0  px-0 md1:px-10 sm1:mt-0">
+      <div class="title1 font-bold text-2xl lg1:text-5xl">
         Web Design
       </div>
-      <div class="deskripsi1">
+      <div class="animasi1 font-extralight text-xl lg1:text-2xl mb-5">
        Web design that I made using figma, photoshop and coding using html, css, tailwindcss, and
         javascript
       </div>
-      <a href="web_uiux/index.html" class="see-more">See more...</a>
+      <a href="web_uiux/index.html" class="see-more mb-7">See more...</a>
     </div>
   </div>
   </div>
 
   <!--- design / grid 2 -->
-  <div id="design" class="grid2">
-    <div class="grid-item1">
-      <div class="title2">
+  <div id="design" class="grid2 px-6 lg1:px-12 py-10">
+    <div class="grid-item1 py-7 md1:py-0  ">
+      <div class="title2 text-2xl lg1:text-5xl font-bold">
         Client  Design
       </div>
-      <div class="deskripsi2">
+      <div class="animasi2 font-extralight text-xl lg1:text-2xl mb-5">
         The best design I've made in years
       </div>
       <a href="web_desain/index.html" class="see-more">See more...</a>
@@ -225,7 +236,7 @@
 
 
   <!-- footer -->
-  <div class=" px-7 lg1:px-10 pt-5  ">
+  <div class=" px-7 lg1:px-10 pt-5 bg-neutral-900 ">
     <div class="font-bold text-sm  lg1:text-4xl flex items-center mb-4">
       ARTWORKHEX
       <div class="bg-white w-[2px] h-[20px]  mx-4 lg1:h-[30px] lg1:mx-7  "></div>
@@ -246,16 +257,16 @@
     <div class="font-bold mb-2 mt-5 text-xs lg1:text-xl ">FOLLOW ME AT</div>
     <div class="flex ml-1 md1:ml-2">
       <a href="https://www.instagram.com/zzls__/">
-        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/1.png" alt="" />
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 hover:scale-125  " src="asset/icon/1.png" alt="" />
       </a>
       <a href="https://www.youtube.com/channel/UChSq1GJ6ikwdUflQk5LE9Aw">
-        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/2.png" alt="" />
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 hover:scale-125  " src="asset/icon/2.png" alt="" />
       </a>
       <a href="https://www.facebook.com/artworkhex">
-        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/3.png" alt="" />
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 hover:scale-125  " src="asset/icon/3.png" alt="" />
       </a>
       <a href="https://github.com/artworkhex?tab=repositories">
-        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 " src="asset/icon/4.png" alt="" />
+        <img class="w-[17px] sm1:w-[20px] md1:w-[35px] lg1:w-[30px] mx-1 lg1:mx-2 hover:scale-125  " src="asset/icon/4.png" alt="" />
       </a>
     </div>
     <div class="text-xs text-center ">Design by alwan l Coppyright 2022</div>

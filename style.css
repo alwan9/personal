@@ -14,14 +14,8 @@
 
 /* TETX STYLE */
 .title1 {
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 5%;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 7vh;
-  font-weight: 600;
   animation: tet 3s ease 0s 1 normal none;
 }
 
@@ -37,15 +31,7 @@
   }
 }
 
-.deskripsi1 {
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  font-size: 3vh;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
+.animasi1 {
   animation: tet 3s ease 0s 1 normal none;
 }
 
@@ -62,13 +48,6 @@
 }
 
 .title2 {
-  margin-right: 10%;
-  margin-left: 10%;
-  padding-top: 10%;
-  margin-bottom: 5%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 7vh;
-  font-weight: 600;
   text-align: start;
   animation: tet 3s ease 0s 1 normal none;
 }
@@ -86,13 +65,6 @@
 }
 
 .deskripsi2 {
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-bottom: 5%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3vh;
-  font-weight: 200;
   text-align: start;
   animation: tet 3s ease 0s 1 normal none;
 }
@@ -134,30 +106,6 @@ h1 {
 @media (max-width: 48rem) {
   h1 {
     font-size: calc(1rem + 2rem);
-  }
-
-  .title {
-    font-size: calc(1rem + 2rem);
-  }
-
-  .deskripsi {
-    font-size: calc(3.2rem + 3.6rem);
-  }
-
-  .title1 {
-    font-size: calc(0.4rem + 1rem);
-  }
-
-  .deskripsi1 {
-    font-size: calc(0.1rem + 0.5rem);
-  }
-
-  .title2 {
-    font-size: calc(0.4rem + 1rem);
-  }
-
-  .deskripsi2 {
-    font-size: calc(0.1rem + 0.5rem);
   }
 }
 
@@ -514,7 +462,7 @@ body.darkmode {
 }
 
 .grid-manipulation-home {
-  margin: 10%;
+
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -525,14 +473,10 @@ body.darkmode {
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
 }
 
-.grid-item-sertifikat {
-  width: 80%;
-  margin: 10%;
-}
+
 
 .grid-drawing {
   width: fit-content;
-  margin: 10%;
   display: grid;
   grid-template-columns: auto auto;
 }
@@ -542,36 +486,13 @@ body.darkmode {
   display: none;
 }
 
-.button-read-more {
-  margin-left: 10%;
-  background-color: white;
-  border: 1px solid #dcdcdc;
-  color: #000000;
-  font-family: Arial;
-  font-size: 15px;
-  padding: 9px 45px;
-}
-
-.button-read-more:hover {
-  background-color: transparent;
-  color: white;
-}
-
-.button-read-more:active {
-  position: relative;
-  top: 1px;
-}
-
 /* SEE MORE */
 .see-more {
-  margin-left: 10%;
   background-color: white;
   border: 1px solid #dcdcdc;
   color: #000000;
-  font-family: Arial;
-  font-size: 15px;
   padding: 9px 45px;
-  text-decoration: none;
+
 }
 
 .see-more:hover {
