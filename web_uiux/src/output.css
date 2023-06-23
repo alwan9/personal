@@ -655,6 +655,11 @@ video {
   padding-right: 1.75rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
@@ -692,7 +697,7 @@ video {
 }
 
 header {
-  background-image: url(../asset/bg2.jpg);
+  background-image: url(asset/bg2.jpg);
 }
 
 nav {
