@@ -1,15 +1,10 @@
 // darkmode
 function setDarkMode(isDark) {
-  var darkBtn = document.getElementById('darkBtn')
-  var lightBtn = document.getElementById('lightBtn')
-
-
+  let darkBtn = document.getElementById('darkBtn')
   document.body.classList.toggle("darkmode");
 }
 
 // navbar
-
-
 const toggleButton = document.getElementsByClassName("toggle-button")[0];
 const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
@@ -18,13 +13,11 @@ toggleButton.addEventListener("click", () => {
 });
 
 
-
 //read more
-
 function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  let dots = document.getElementById("dots");
+  let moreText = document.getElementById("more");
+  let btnText = document.getElementById("myBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -39,4 +32,4 @@ function myFunction() {
 
 
 
-// animasi header
+// language
