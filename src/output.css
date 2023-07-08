@@ -582,10 +582,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -628,10 +624,6 @@ video {
 
 .mb-10 {
   margin-bottom: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .flex {
@@ -944,6 +936,8 @@ nav {
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
 }
 
+/*  */
+
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1250,6 +1244,10 @@ nav {
     margin-right: 1.25rem;
   }
 
+  .lg1\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .lg1\:mt-4 {
     margin-top: 1rem;
   }
@@ -1260,10 +1258,6 @@ nav {
 
   .lg1\:mb-44 {
     margin-bottom: 11rem;
-  }
-
-  .lg1\:mt-5 {
-    margin-top: 1.25rem;
   }
 
   .lg1\:block {
