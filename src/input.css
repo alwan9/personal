@@ -8,4 +8,24 @@ nav {
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
 }
 
-/*  */
+
+/* scroll style */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
