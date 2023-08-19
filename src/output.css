@@ -1198,13 +1198,6 @@ nav {
   background: #555;
 }
 
-.img-bg1 {
-  background-image: url(asset/bg/bg5.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
@@ -1822,3 +1815,4 @@ nav {
     font-weight: 600;
   }
 }
+

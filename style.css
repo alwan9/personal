@@ -31,6 +31,13 @@ body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
+.img-bg1 {
+  background-image: url(asset/bg/bg5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 
 /* darkmode */
@@ -38,6 +45,8 @@ body.darkmode {
   background: rgba(252, 252, 252, 0.466);
   color: rgb(0, 0, 0);
 }
+
+
 
 
 
