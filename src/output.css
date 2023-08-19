@@ -721,6 +721,10 @@ video {
   display: none;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
 .h-\[20px\] {
   height: 20px;
 }
@@ -743,22 +747,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-\[2\] {
-  height: 2;
-}
-
-.h-\[20\] {
-  height: 20;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.h-\[100px\] {
-  height: 100px;
 }
 
 .w-\[100px\] {
@@ -1211,7 +1199,7 @@ nav {
 }
 
 .img-bg1 {
-  background-image: url(/asset/bg/bg5.png);
+  background-image: url(asset/bg/bg5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

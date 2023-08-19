@@ -33,7 +33,7 @@ nav {
 }
 
 .img-bg1 {
-  background-image: url(/asset/bg/bg5.png);
+  background-image: url(asset/bg/bg5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
