@@ -1,5 +1,7 @@
 /*INDEX-HOME-------------------------general------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +12,12 @@
 body {
   overflow-x: hidden;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #0c0d0e;
   color: white;
+}
+
+.font-fugaz {
+  font-family: 'Fugaz One', cursive;
 }
 
 .wm {
@@ -26,10 +31,6 @@ body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
-.jDesain {
-  color: cyan;
-  text-decoration: none;
-}
 
 
 /* darkmode */
@@ -38,105 +39,7 @@ body.darkmode {
   color: rgb(0, 0, 0);
 }
 
-/*INDEX-HOME--------------------------navbar------------------------*/
 
-.brand-title-foto {
-  align-items: center;
-  width: 6vmax;
-  margin-left: 25px;
-  margin-top: 0.4rem;
-}
-
-.navbar {
-  z-index: 9999;
-  text-align: center;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.19);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  height: 5vmax;
-}
-
-.navbar-links {
-  height: auto;
-}
-
-.navbar-links ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  color: white;
-  padding: 1.7rem;
-}
-
-.toggle-button {
-  position: absolute;
-  top: 1.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 5%;
-}
-
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-}
-
-@media (max-width: 500px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: rgba(255, 255, 255, 0.11);
-  }
-
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    height: 1000px;
-    flex-direction: column;
-  }
-
-  .navbar-links ul li {
-    text-align: center;
-  }
-
-  .navbar-links ul li a {
-    padding: 0.5rem 1rem;
-  }
-
-  .navbar-links.active {
-    color: black;
-    display: flex;
-  }
-}
 
 /*INDEX-HOME------------------------textvertikal-------------*/
 
@@ -179,179 +82,12 @@ body.darkmode {
   color: #fff;
 }
 
-/*INDEX-HOME---------------------------footer------------------------*/
 
-.judulF {
-  font-size: 3.5rem;
-  font-weight: 600;
-  margin-left: 50px;
-  padding-top: 4%;
-  display: flex;
-  align-items: center;
-}
 
-.garis {
-  height: 30px;
-  width: 2px;
-  margin-left: 30px;
-  background-color: white;
-}
 
-.logoF {
-  width: 27px;
-  margin-left: 30px;
-}
 
-.ket {
-  font-size: 1.3rem;
-  margin-left: 70px;
-  margin-top: 15px;
-}
 
-/*medsos icon logo*/
-.medsos {
-  margin-left: 50px;
-  font-size: 1.4rem;
-  margin-top: 40px;
-}
 
-.iconItem {
-  width: 30px;
-  margin: 13px;
-}
-
-.icon {
-  margin-top: 10px;
-  margin-left: 70px;
-}
-
-.qr {
-  width: 110px;
-  margin-right: 50px;
-}
-
-.gridUtama {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-}
-
-.design {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 6%;
-  padding-bottom: 3%;
-}
-
-@media screen and (max-width: 720px) {
-  .ket {
-    font-size: 0.7rem;
-    padding-right: 70px;
-  }
-
-  .qr {
-    width: 70px;
-  }
-
-  .icon {
-    width: 30px;
-    margin: 20px;
-    display: flex;
-  }
-
-  .judulF {
-    font-size: calc(0.7rem + 1rem);
-  }
-
-  .medsos {
-    font-size: 1rem;
-  }
-
-  .design {
-    font-size: 1rem;
-  }
-}
-
-/*INDEX-HOME-------------------------------navbar------------------------------- */
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
-
-#burger-toggle {
-  position: absolute;
-  appearance: none;
-  opacity: 0;
-}
-
-#burger-toggle:checked~.menu {
-  opacity: 1;
-  visibility: visible;
-}
-
-#burger-toggle:checked~.menu .menu-nav-link span div,
-#burger-toggle:checked~.menu img {
-  transform: translateY(0);
-  transition: 1.2s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
-}
-
-@media screen and (max-width: 750px) {
-  .menu {
-    display: block;
-  }
-}
-
-.menu-nav {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  list-style-type: none;
-}
-
-@media screen and (max-width: 750px) {
-  .menu-nav {
-    flex-direction: column;
-  }
-}
-
-.menu-nav-item {
-  margin-bottom: 100px;
-  flex: 1;
-}
-
-.menu-nav-link {
-  margin-right: 200px;
-  position: relative;
-  display: inbar-flex;
-  font-size: 2rem;
-  color: white;
-  text-decoration: none;
-}
-
-.menu-nav-link span {
-  overflow: hidden;
-}
-
-.menu-nav-link span div {
-  transform: translateY(102%);
-}
-
-.menu-nav-link::after {
-  position: absolute;
-  content: "";
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: var(--primary-color);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.5s;
-}
-
-.menu-nav-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
 
 /* grid-global */
 .grid1 {
@@ -429,4 +165,10 @@ body.darkmode {
   grid-template-columns: repeat(auto-fill, minmax(330px, 330px));
   grid-gap: 10px;
   row-gap: 10px;
+}
+
+header {
+  /* background-image: url(asset/bg/bg5.png); */
+  width: 100vw;
+  height: 100vh;
 }

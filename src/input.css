@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 nav {
-  background-color: rgba(255, 255, 255, 0.19);
   backdrop-filter: blur(1px);
   box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
 }
+
+
+/* font */
 
 
 /* scroll style */
@@ -28,4 +30,12 @@ nav {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.img-bg1 {
+  background-image: url(/asset/bg/bg5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }

@@ -13,7 +13,9 @@ module.exports = {
       xl: "1240px",
     },
     backgroundImage: {
-      'bg-header': "url('asset/bg/bg2.png')",
+      // 'back-header1': "url('asset/bg/bg2.png')",
+      // 'back-header2': "url('asset/bg/bg5.png')",
+      // 'img-bg1': "url('aseet/bg/bg5.png')",
     },
   },
   plugins: [],
