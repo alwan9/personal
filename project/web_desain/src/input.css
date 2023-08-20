@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-  background-image: url(../asset/bg2.jpg);
-}
+
 
 nav {
   /* background-color: rgba(255, 255, 255, 0.19);

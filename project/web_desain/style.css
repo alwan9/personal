@@ -6,6 +6,9 @@
   list-style: none;
 }
 
+header {
+  background-image: url(asset/bg2.jpg);
+}
 
 body {
   overflow-x: hidden;
