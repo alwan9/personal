@@ -1834,5 +1834,9 @@ nav {
   .lg1\:font-semibold {
     font-weight: 600;
   }
+
+  .lg1\:font-bold {
+    font-weight: 700;
+  }
 }
 
