@@ -673,6 +673,10 @@ video {
   margin-top: 0.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-14 {
   margin-top: 3.5rem;
 }
@@ -773,6 +777,10 @@ video {
   width: 2px;
 }
 
+.w-\[30px\] {
+  width: 30px;
+}
+
 .w-\[70px\] {
   width: 70px;
 }
@@ -781,12 +789,12 @@ video {
   width: 100vw;
 }
 
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-center {
@@ -843,11 +851,6 @@ video {
 .bg-neutral-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(212 212 212 / var(--tw-bg-opacity));
-}
-
-.bg-neutral-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(115 115 115 / var(--tw-bg-opacity));
 }
 
 .bg-neutral-900 {
@@ -1149,6 +1152,11 @@ video {
   color: rgb(129 140 248 / var(--tw-text-opacity));
 }
 
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
+}
+
 .text-violet-300 {
   --tw-text-opacity: 1;
   color: rgb(196 181 253 / var(--tw-text-opacity));
@@ -1218,10 +1226,6 @@ nav {
 .hover\:bg-zinc-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(63 63 70 / var(--tw-bg-opacity));
-}
-
-.hover\:font-bold:hover {
-  font-weight: 700;
 }
 
 .hover\:text-blue-200:hover {
@@ -1473,6 +1477,10 @@ nav {
     width: 35px;
   }
 
+  .md1\:w-\[40px\] {
+    width: 40px;
+  }
+
   .md1\:w-\[60px\] {
     width: 60px;
   }
@@ -1561,8 +1569,12 @@ nav {
 }
 
 @media (min-width: 776px) {
-  .lg1\:right-\[58\%\] {
-    right: 58%;
+  .lg1\:right-\[5\%\] {
+    right: 5%;
+  }
+
+  .lg1\:right-\[54\%\] {
+    right: 54%;
   }
 
   .lg1\:mx-2 {
@@ -1573,6 +1585,11 @@ nav {
   .lg1\:mx-7 {
     margin-left: 1.75rem;
     margin-right: 1.75rem;
+  }
+
+  .lg1\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   .lg1\:mb-44 {
@@ -1595,8 +1612,12 @@ nav {
     margin-top: 0px;
   }
 
-  .lg1\:mt-14 {
-    margin-top: 3.5rem;
+  .lg1\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg1\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg1\:mt-2 {
@@ -1671,6 +1692,10 @@ nav {
     width: 400px;
   }
 
+  .lg1\:w-\[50px\] {
+    width: 50px;
+  }
+
   .lg1\:w-\[60\%\] {
     width: 60%;
   }
@@ -1707,9 +1732,9 @@ nav {
     padding-right: 1.25rem;
   }
 
-  .lg1\:px-\[30px\] {
-    padding-left: 30px;
-    padding-right: 30px;
+  .lg1\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .lg1\:px-\[450px\] {
@@ -1799,11 +1824,6 @@ nav {
   .lg1\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .lg1\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .lg1\:text-xl {
