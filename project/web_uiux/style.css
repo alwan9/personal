@@ -6,6 +6,9 @@
   list-style: none;
 }
 
+header {
+  background-image: url(asset/bg2.jpg);
+}
 
 body {
   overflow-x: hidden;
@@ -20,5 +23,3 @@ body.darkmode {
   background: rgba(252, 252, 252, 0.466);
   color: rgb(0, 0, 0);
 }
-
-

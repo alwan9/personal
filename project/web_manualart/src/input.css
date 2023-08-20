@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-header {
-    background-image: url(asset/bg2.jpg);
-}
 
 
 nav {
