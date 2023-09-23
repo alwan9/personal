@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  overflow-x: hidden;
+  align-items: center;
+  background-color: #0c0d0e;
+  color: white;
+}
 
 /* scroll style */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
+  scroll-behavior: smooth;
 }
 
 /* Track */
@@ -24,4 +34,3 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0052d5;
 }
-
