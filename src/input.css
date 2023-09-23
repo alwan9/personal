@@ -6,6 +6,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.lindungi {
+  /* agar tidak bisa di select text dan img */
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none
+}
+
 body {
   overflow-x: hidden;
   align-items: center;
