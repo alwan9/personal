@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-nav {
-  backdrop-filter: blur(1px);
-  box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
-}
-
-
-/* font */
 
 
 /* scroll style */
@@ -19,16 +12,15 @@ nav {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #bebbe7;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #4124a0;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #0052d5;
 }
-

@@ -2,7 +2,9 @@
 module.exports = {
   content: [
     './index.html',
-    './**/*.html',
+    './*.html',
+    '*.html',
+    'project.html'
   ],
   theme: {
     screens: {
