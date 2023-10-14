@@ -15,24 +15,47 @@
     <!-- Google tag (gtag.js) - google analistc -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SF3X5FMKRM"></script>
 
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <style>
+        /* CSS for the modal (you can include this in your head section) */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
 
-        gtag('config', 'G-SF3X5FMKRM');
-    </script>
+        .modal-content {
+            margin: auto;
+            display: block;
 
-    <!-- <script>
-    alert("website dalam masa maintenance, maaf apabila terjadi bug atau malah lainnya")
-    alert("anda bisa menghubungi kami pada kolom footer di akhir website kami")
-  </script> -->
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .close:hover {
+            color: #bbb;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
-<body class="text-white bg-black scroll-smooth">
+<body class="text-white bg-zinc-900 scroll-smooth">
     <!-- navbar -->
     <nav id="top"
-        class="slide-in-top flex justify-between items-center px-3 py-2 lg1:px-5 lg1:py-2 z-50  w-screen text-center top-0 bg-black">
+        class="slide-in-top flex justify-between items-center px-3 py-2 lg1:px-5 lg1:py-2 z-50  w-screen text-center top-0 bg-zinc-900">
         <!-- logo navbar -->
         <a href="https://artworkhex.github.io/awh/">
             <img class=" w-[70px] sm1:w-[100px] md1:w-[125px] lg1:w-[150px] mr-3 " src="asset/logo.png">
@@ -74,55 +97,112 @@
             </div>
     </nav>
 
+    <!-- container -->
+    <div class=" tracking-in-expand text-center font-bold text-4xl mt-36 lg1:text-7xl">Artist and Drawing</div>
 
-    <div class="tracking-in-expand text-center font-bold text-4xl mt-36 lg1:text-7xl">Artist and Drawing</div>
+
+
+
+
     <div class="lg1:px-10 mt-20">
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/1.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/2.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/3.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/4.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/5.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/6.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/7.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/8.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/9.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/10.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/11.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/12.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/13.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/14.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/15.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/16.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/17.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/18.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/19.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/20.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/21.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/23.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/24.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/35.jpg" alt="art3">
-        </div>
-        <div class=" lg1:grid lg1:grid-cols-3">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/36.jpg" alt="art1">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/37.jpg" alt="art2">
-            <img class="lindungi px-1 mt-5 lg1:mt-2" src="asset/asset-page/draw/38.jpg" alt="art3">
+        <div class="grid grid-cols-1 md1:grid-cols-2 lg1:grid-cols-3">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/1.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/2.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/3.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/4.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/5.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/6.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/7.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/8.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/9.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/10.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/11.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/12.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/13.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/14.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/15.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/16.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/17.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/18.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/19.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/20.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/21.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/23.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/24.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/25.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/26.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/27.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/28.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/29.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/30.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/31.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/32.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/33.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/34.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/35.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/36.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/37.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/38.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/39.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/40.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/41.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/42.jpg">
+            <img class="lindungi hover:cursor-pointer hover:scale-105 rounded-xl duration-300 px-1 mt-5 lg1:mt-2"
+                onclick="openModal(this)" src="asset/asset-page/draw/43.jpg">
+
         </div>
     </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content lg1:w-[60%] w-[100%] " id="modalImg">
+        <div id="caption">Art By Alwan</div>
+    </div>
+
+
+
+
     <a href="#top">
         <div
             class="w-[45px] h-[45px] lg1:w-[60px] lg1:h-[60px] rounded-full hover:bg-[#4b27ff] hover:scale-110 duration-300 bg-white p-2  right-0 bottom-0 fixed mr-5 mb-7 shadow-xl ">
@@ -136,5 +216,27 @@
     </footer>
 </body>
 <script src="script.js"></script>
+<script>
+    // JavaScript for the modal
+    function openModal(img) {
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("modalImg");
+        var captionText = document.getElementById("caption");
+
+        modal.style.display = "block";
+        modalImg.src = img.src;
+        captionText.innerHTML = img.alt;
+    }
+
+    function closeModal() {
+        var modal = document.getElementById("myModal");
+        modal.style.display = "none";
+    }
+</script>
+
+<!-- <script>
+alert("website dalam masa maintenance, maaf apabila terjadi bug atau malah lainnya")
+alert("anda bisa menghubungi kami pada kolom footer di akhir website kami")
+</script> -->
 
 </html>
