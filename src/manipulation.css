@@ -1,41 +1,86 @@
-.container {
-    position: relative;
-    width: 50%;
+/* CSS */
+.image-container {
+  position: relative;
 }
 
-.image {
-    display: block;
-    width: 100%;
-    height: auto;
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-.overlay-1 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-image: url(/asset/asset-page/manipulation/1.1.jpg);
-    background-position: center;
-    background-size: contain;
+.image-container:hover .overlay {
+  opacity: 1;
+  /* Tampilkan latar belakang hitam saat elemen dihover */
 }
 
-.container:hover .overlay {
-    opacity: 1;
-}
+/* overlay */
 
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+.overlay1 {
+  background-image: url(../asset-page/manipulation/1.0.jpg);
+}
+.overlay2 {
+  background-image: url(../asset-page/manipulation/2.0.jpg);
+}
+.overlay3 {
+  background-image: url(../asset-page/manipulation/3.0.jpg);
+}
+.overlay4 {
+  background-image: url(../asset-page/manipulation/4.0.jpg);
+}
+.overlay5 {
+  background-image: url(../asset-page/manipulation/5.0.jpg);
+}
+.overlay6 {
+  background-image: url(../asset-page/manipulation/6.0.jpg);
+}
+.overlay7 {
+  background-image: url(../asset-page/manipulation/7.0.jpg);
+}
+.overlay8 {
+  background-image: url(../asset-page/manipulation/8.0.jpg);
+}
+.overlay9 {
+  background-image: url(../asset-page/manipulation/9.0.jpg);
+}
+.overlay10 {
+  background-image: url(../asset-page/manipulation/10.0.jpg);
+}
+.overlay11 {
+  background-image: url(../asset-page/manipulation/11.0.jpg);
+}
+.overlay12 {
+  background-image: url(../asset-page/manipulation/12.0.jpg);
+}
+.overlay13 {
+  background-image: url(../asset-page/manipulation/13.0.jpg);
+}
+.overlay14 {
+  background-image: url(../asset-page/manipulation/14.0.jpg);
+}
+.overlay15 {
+  background-image: url(../asset-page/manipulation/15.0.jpg);
+}
+.overlay16 {
+  background-image: url(../asset-page/manipulation/16.0.jpg);
+}
+.overlay17 {
+  background-image: url(../asset-page/manipulation/17.0.jpg);
+}
+.overlay18 {
+  background-image: url(../asset-page/manipulation/18.0.jpg);
+}
+.overlay19 {
+  background-image: url(../asset-page/manipulation/19.0.jpg);
+}
+.overlay20 {
+  background-image: url(../asset-page/manipulation/20.0.jpg);
 }

@@ -859,6 +859,10 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .content-center {
   align-content: center;
 }
@@ -961,8 +965,68 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
+.bg-\[\.\.\/url\(asset-page\/manipulation\)\] {
+  background-color: ../url(asset-page/manipulation);
+}
+
+.bg-\[\.\.\/url\(asset-page\/manipulation\/13\.0\.jpg\)\] {
+  background-color: ../url(asset-page/manipulation/13.0.jpg);
+}
+
+.bg-\[\.\.\/url\(asset-page\/manipulation\/14\.0\.jpg\)\] {
+  background-color: ../url(asset-page/manipulation/14.0.jpg);
+}
+
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
+}
+
+.bg-\[url\(asset-page\/manipulation\)\] {
+  background-image: url(asset-page/manipulation);
+}
+
+.bg-\[url\(asset-page\/manipulation\/1\.0\.jpg\)\] {
+  background-image: url(asset-page/manipulation/1.0.jpg);
+}
+
+.bg-\[url\(asset-page\/manipulation\/13\.0\.jpg\)\] {
+  background-image: url(asset-page/manipulation/13.0.jpg);
+}
+
+.bg-\[url\(asset-page\/manipulation\/14\.0\.jpg\)\] {
+  background-image: url(asset-page/manipulation/14.0.jpg);
+}
+
+.bg-\[url\(\.\.\/asset-page\/manipulation\)\] {
+  background-image: url(../asset-page/manipulation);
+}
+
+.bg-\[url\(\.\.\/asset-page\/manipulation\/1\.0\.jpg\)\] {
+  background-image: url(../asset-page/manipulation/1.0.jpg);
+}
+
+.bg-\[url\(\.\.\/asset-page\/manipulation\/13\.0\.jpg\)\] {
+  background-image: url(../asset-page/manipulation/13.0.jpg);
+}
+
+.bg-\[url\(\.\.\/asset-page\/manipulation\/14\.0\.jpg\)\] {
+  background-image: url(../asset-page/manipulation/14.0.jpg);
+}
+
+.bg-\[url\(\.\/\.\.\/asset-page\/manipulation\)\] {
+  background-image: url(./../asset-page/manipulation);
+}
+
+.bg-\[url\(\.\/\.\.\/asset-page\/manipulation\/1\.0\.jpg\)\] {
+  background-image: url(./../asset-page/manipulation/1.0.jpg);
+}
+
+.bg-\[url\(\.\/\.\.\/asset-page\/manipulation\/13\.0\.jpg\)\] {
+  background-image: url(./../asset-page/manipulation/13.0.jpg);
+}
+
+.bg-\[url\(\.\/\.\.\/asset-page\/manipulation\/14\.0\.jpg\)\] {
+  background-image: url(./../asset-page/manipulation/14.0.jpg);
 }
 
 .from-\[\#ff80b5\] {
@@ -1051,6 +1115,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pb-7 {
@@ -1426,6 +1500,11 @@ body {
     margin-right: 1.5rem;
   }
 
+  .md1\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .md1\:mt-40 {
     margin-top: 10rem;
   }
@@ -1442,8 +1521,16 @@ body {
     margin-top: 2.5rem;
   }
 
+  .md1\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md1\:block {
     display: block;
+  }
+
+  .md1\:flex {
+    display: flex;
   }
 
   .md1\:grid {
@@ -1484,6 +1571,10 @@ body {
 
   .md1\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md1\:justify-center {
+    justify-content: center;
   }
 
   .md1\:rounded-l-full {
@@ -1539,6 +1630,11 @@ body {
   .lg1\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+
+  .lg1\:mx-20 {
+    margin-left: 5rem;
+    margin-right: 5rem;
   }
 
   .lg1\:ml-0 {
