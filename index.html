@@ -20,33 +20,26 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-SF3X5FMKRM');
   </script>
   <script src="script.js"></script>
-  <!-- <script>
-    alert("website dalam masa maintenance, maaf apabila terjadi bug atau malah lainnya")
-    alert("anda bisa menghubungi kami pada kolom footer di akhir website kami")
-  </script> -->
-
 
 </head>
 
-
-<body class="text-white bg-zinc-900">
+<body class="text-white  text-2xl lg1:text-3xl backdrop-blur-sm" id="content">
   <!--navbarvertikal-->
-  <div class="vertical ">
+  <div class="vertical text-xl">
     <div id="theme"></div>
-    <a onclick="" id="" class="">Indonesia.Eglish</a>
-    <a onclick="setDarkMode(false)" id="darkBtn" class="">Light.Dark</a>
-    <a href="https://www.instagram.com/zzls__/">instagram</a>
-    <span class="destination">my website</span>
-  </div>
+    <a class="hover:cursor-pointer" id="languageToggle" onclick="changeLanguage()">Indonesia</a>
+
+    <a class="hover:cursor-pointer" onclick="setDarkMode(false)" id="darkBtn">Call Me Alwan</a>
+    <a class="hover:cursor-pointer" href="https://www.instagram.com/zzls__/">Instagram</a>
+
   </div>
 
   <!-- navbar -->
   <nav id="top"
-    class="slide-in-top flex justify-between items-center px-7 py-2 lg1:px-10 lg1:py-3 z-50  w-screen text-center top-0 bg-zinc-900">
+    class="slide-in-top flex justify-between items-center px-7 py-2 lg1:px-10 lg1:py-3 z-50  w-screen text-center top-0 ">
     <!-- logo navbar -->
     <a href="https://artworkhex.github.io/awh/">
       <img class=" w-[70px] sm1:w-[100px] md1:w-[125px] lg1:w-[150px] mr-3 " src="asset/logo.png">
@@ -54,205 +47,253 @@
     <!-- navbar tengah -->
     <div class="flex items-center ">
       <div
-        class="hidden duration-300 scale-110 text-xs md1:text-sm sm1:block my-1 xs1:my-2 mx-3 md1:mx-4 hover:scale-150 hover:text-indigo-600">
+        class="hidden duration-300 scale-105 text-xs md1:text-sm sm1:block my-1 xs1:my-2 mx-3 md1:mx-4 hover:scale-150 hover:text-indigo-600">
         <a href="index.html">
           Home</a>
       </div>
       <div
-        class="hidden duration-300 scale-110 text-xs md1:text-sm md1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
+        class="hidden duration-300 scale-105 text-xs md1:text-sm md1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
         <a href="index.html">
           About</a>
       </div>
       <div
-        class="hidden duration-300 scale-110 text-xs md1:text-sm sm1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
+        class="hidden duration-300 scale-105 text-xs md1:text-sm sm1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
         <a href="project.html">
           Project</a>
       </div>
       <div
-        class="hidden duration-300 scale-110 text-xs md1:text-sm lg1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
+        class="hidden duration-300 scale-105 text-xs md1:text-sm lg1:block my-1 sm1:my-2 mx-3 md1:mx-6 hover:scale-150 hover:text-indigo-600">
         <a href="achievment.html">
           Achivement</a>
       </div>
     </div>
-    <div>
-      <!-- icon whatsapp  -->
-      <div
-        class="flex bg-neutral-300 border-2 hover:border-indigo-600  hover:bg-zinc-900 bg-opacity-30 rounded-md items-center px-2 py-1 duration-300 hover:scale-110 ">
-        <div class="hidden xs1:block text-xs   mr-2 md1:text-sm lg1:mr-5  duration-300  "> <a
-            href="https://wa.me/+6288216760774">
-            WhatsApp</a></div>
+    <!-- icon whatsapp  -->
+    <div
+      class="flex border-2 bg-blur hover:border-indigo-600  hover: bg-opacity-30 rounded-md items-center px-2 py-1 duration-300 hover:scale-105 ">
+      <div class="hidden xs1:block text-xs   md1:text-sm duration-300  ">
         <a href="https://wa.me/+6288216760774">
-          <img class="w-[15px] xs1:w-[16px] sm1:w-[17px] md1:w-[18px]  lg1:w-[20px]" src="asset/whatsapp.png" alt="">
-        </a>
+          Let's Connect</a>
       </div>
+    </div>
   </nav>
 
-
   <header class="text-white">
-    <div class="bg-zinc-500 w-screen lg1:h-[530px] md1:h-[650px]  h-[650px] img-bg1 "> <br></div>
+    <div class=" w-screen lg1:h-[530px] md1:h-[650px]  h-[650px] img-bg1 ">
+      <br>
+    </div>
     <div
-      class="pl-10 pb-7  text-5xl md1:text-5xl flex lg1:text-7xl lg1:pl-16 lg1:pb-10 bottom-0 left-0  font-bold absolute  text-focus-in ">
+      class="pl-16 pb-7  text-5xl flex md1:text-8xl xl1:text-9xl lg1:pl-16 lg1:pb-10 bottom-0 left-0  font-bold absolute  text-focus-in ">
       <div>
-
-        <div class="text-violet-300"> I'm <br>
-          Programer</div>
-        and Designer
+        <div class="judul"> I'M <br>
+          PROGRAMER</div>
+        AND DESIGNER
       </div>
     </div>
   </header>
-
   <!-- line -->
   <div class="bg-white w-[170px] h-[2px] lg1:w-[400px] lg1:h-[4px]"></div>
-
-  <!-- about me / grid 1 -->
-  <div class=" flex flex-col-reverse lg1:flex-row pt-[100px] lg1:pt-[200px] items-center  ">
+  <!-- blur 1 -->
+  <div
+    class="w-[50%] h-[40%] md1:h-[65%] xl1:h-[100%] md1:opacity-40 opacity-70 md1:right-0 md1:rounded-l-full bg-violet-900 backdrop-blur-sm blur-3xl absolute rounded-r-full z-0">
+  </div>
+  <div class=" grid lg1:grid-cols-2  pt-[100px] relative z-50 lg1:pt-[200px] items-center  ">
     <!-- item1 -->
-    <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="800"
-      class=" px-7 lg1:pl-10  ">
-      <div class=" font-bold text-3xl lg1:text-5xl">
-        Who am I ?
-      </div>
-      <div class=" font-extralight text-xl lg1:text-2xl lg1:mt-5    ">
-        Hii... my name's Hafiz Alwan and you can call me Alwan. I live in Purwokerto.
+    <div data-aos="fade-up" data-aos-duration="800" class=" px-10  lg1:pl-10 row-start-2 lg1:row-start-1 relative z-50">
+      <div class=" font-bold text-5xl md1:text-6xl xl1:text-8xl judul mb-7">
+        I'M HAFIZ
         <br>
-        I've won the FLS2N category manipulation photoshop for JHS in 2021.
+        ALWAN
+      </div>
 
-
-        <span id="dots">
-          <div class="button-read-more text-indigo-600 font-semibold " onclick="myFunction()" id="myBtn">Read more...
-          </div>
-        </span>
-
-        <span id="more">
-          <br><br>
-          I have personal branding, namely artworkhex, I manage the whole brand <br>
-          I skilled in various software computer like Premier pro, Photoshop, Adobe Illustrator and other Adobe family.
-          <br><br>
-          My hobby is drawing and I often use visual technique to understand something.
-          <div class="button-read-more text-indigo-600 font-semibold " onclick="myFunction()" id="myBtn">Less more...
-          </div>
-        </span>
+      <div data-lang="id" class="content font-thin">
+        Haiii... Saya Hafiz Alwan kamu bisa memanggilku Alwan. Saya tinggal
+        di Purwokerto. Saya pernah memenangkan lomba FLS2N bidang manipulation
+        photoshop tahun 2021 tingkat nasional.
+      </div>
+      <div data-lang="en" class="content font-thin" style="display: none;">
+        Hii... my name's Hafiz Alwan and you can call me Alwan. I live in
+        Purwokerto. I've won the FLS2N category manipulation photoshop for JHS
+        in 2021.
       </div>
       <div class="flex mt-5 items-center">
-        <a href="#">
+        <a href="/asset/cv_Hafiz Alwan.pdf">
           <button type="button"
-            class="border-[2px] border-zinc-600 hover:bg-zinc-900  hover:border-indigo-500  text-zinc-50   hover:text-white  duration-500  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+            class="border-[2px] bg-blur hover:border-indigo-500 hover:bg-zinc-900  hover:text-white  duration-500  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
             Download CV
-          </button </a>
-          <a href="https://www.instagram.com/zzls__/">
-            <button type="button"
-              class="border-[2px] border-zinc-600 hover:bg-zinc-900  hover:border-indigo-500  text-zinc-50   hover:text-white  duration-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
-              Instagram
-            </button>
-          </a>
+          </button></a>
+        <a href="https://www.instagram.com/zzls__/">
+          <button type="button"
+            class="border-[2px] bg-blur  hover:border-indigo-500 hover:bg-zinc-900  hover:text-white  duration-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+            Instagram
+          </button>
+        </a>
       </div>
 
     </div>
     <!-- item2 -->
-    <div>
-      <img data-aos="fade-left" data-aos-offset="500" data-aos-duration="800"
-        class="wm pl-28  md1:w-[700px]  lg1:w-[1100px] right-0 mb-11" src="asset/mockup1.png" alt="">
+    <div data-aos="fade-up" data-aos-duration="800">
+      <img class="wm pl-28 md1:w-[700px] lg1:w-[1100px] right-0 mb-11 row-start-1 " src="asset/mockup1.png" alt>
     </div>
   </div>
   </div>
 
-  <!-- jasa design -->
-  <div id="jasa" class="text-center bg-neutral-800 px-6 lg1:px-12 py-3  lg1:py-8 mt-28 ">
-    <!-- judul -->
-    <div class="font-bold text-3xl lg1:text-5xl mt-10 ">
-
-      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1100">
-        My Skils
-      </div>
-
-      <!-- icon -->
-      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1200"
-        class="justify-center items-center flex px-1 mt-10">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/Ae.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/Ai.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/Apr.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/Aps.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/corel.png" alt="">
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1300"
-        class="justify-center items-center flex px-10 mt-3">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/html.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/css.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/bootstrap.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/git.png" alt="">
-        <img class="w-[20px] sm1:w-[40px] md1:w-[60px] lg1:w-[120px] h-auto mx-2 md1:mx-4 hover:scale-125 duration-200"
-          src="asset/skills/Tailwind.png" alt="">
-      </div>
-
+  <!-- -=================================================== -->
+  <!-- -=================================================== -->
+  <!-- blur 2 -->
+  <div
+    class="w-[50%] h-[40%]  md1:left-0 md1:rounded-r-full md1:opacity-40 opacity-70 bg-violet-900 backdrop-blur-sm blur-3xl right-0 absolute rounded-l-full z-0">
+  </div>
+  <!-- blur 3 -->
+  <div
+    class="w-[50%] h-[40%]  md1:right-0 md1:rounded-l-full md1:mt-[60%] lg1:mt-[40%] mt-[100%]  md1:opacity-40 opacity-70 bg-violet-900 backdrop-blur-sm blur-3xl left-0-0 absolute rounded-r-full z-0">
+  </div>
+<div class="md1:grid md1:grid-cols-2">
+  <!-- -=================================================== -->
+  <div class=" mx-7 lg1:ml-10 lg1:mr-5 lg1:px-20 mt-40 py-10 text-xl font-light bg-border relative z-50">
+    <div data-aos="fade-up" data-aos-duration="800"
+      class="font-bold judul text-4xl xl1:text-6xl px-7 flex items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" class="mr-3 md1:w-[100px] md1:h-[100px]"
+        viewBox="0 0 24 24">
+        <path fill="currentColor" d="M7.5 2.5h9v4H22v15H2v-15h5.5v-4Zm2 4h5v-2h-5v2ZM4 8.5v11h16v-11H4Z" />
+      </svg>
+      WORK
       <br>
+      EXPERIENCE
     </div>
-    <!-- deskripsi -->
-    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1400"
-      class="text-xl font-extralight  ">
-      We provide graphic designer service for various needs like brochure, logos, pamphlet, poster, id card, etc.
-      <span class="hidden md1:block">I skilled in various software computer like Premier Pro, Photoshop, Adobe
-        Illustrator and other Adobe family. </span>
-      Please contact us by clicking on the link below this or pressing the whatsapp logo in the upper right corner of
-      this site.
-
-
-      <div>
+    <div class="px-7">
+      <!-- 01 -->
+      <div data-aos="fade-up" data-aos-duration="800">
+        <div class=" text-base font-medium text-zinc-500 mt-10 lg1:text-2xl">
+          MARET 2023 - JUNI 2023
+        </div>
+        <div class="font-medium text-xl md1:text-2xl lg1:text-3xl lg1:font-semibold hover:cursor-pointer " id="myBtn1" onclick="PT1()">
+          PT.JAVA MULTI MANDIRI (JVM) <span class="font-thin text-purple-500"> ˃</span>
+        </div>
         <br>
-        <a class="text-indigo-500" href="https://wa.me/+6287739860106">Whatsapp</a>
-        |
-        <a class="text-indigo-500" href="https://hafizsusilo86@gmail.com">Gmail</a>
+        <div class="text-zinc-500 hidden " data-lang="id" class="content" id="dots1">
+          <span class="text-zinc-300"> #</span> Mendapatkan gelar "excelent"
+          sebagai peserta magang
+          <br>
+          <span class="text-zinc-300"> #</span> total Membuat 371 desain feed
+          instagram untuk 4 brand berbeda (novotest,
+          hanna id, mitech, alat ukur)
+          <br><br><br>
+        </div>
+      </div>
+
+      <!-- 02 -->
+      <div data-aos="fade-up" data-aos-duration="800">
+        <div class="text-zinc-500 text-base lg1:text-2xl font-medium">
+          November 2023 - Januari 2024
+        </div>
+        <div class="font-medium ext-xl md1:text-2xl lg1:text-3xl lg1:font-semibold hover:cursor-pointer" id="myBtn2" onclick="PT2()">
+          PT.Charisma Cahaya Mulia (PT Arya) <span class="font-thin text-purple-500"> ˃</span>
+        </div>
+        <br>
+        <div class="text-zinc-500 hidden " id="dots2">
+          <span class="text-zinc-300"> #</span> Membuat feed instagram dari brand ya gallery
+          <br><br><br>
+        </div>
+      </div>
+      <div>
+      </div>
+      <!-- 03 -->
+      <div data-aos="fade-up" data-aos-duration="800">
+        <div class="text-zinc-500 text-base lg1:text-2xl font-medium">
+          2021 - Sekarang
+        </div>
+        <div class="font-medium ext-xl md1:text-2xl lg1:text-3xl lg1:font-semibold hover:cursor-pointer" id="myBtn3" onclick="PT3()">
+          FREELANCE <span class="font-thin text-purple-500"> ˃</span>
+        </div>
+        <br>
+        <div class="text-zinc-500 hidden mb-10" id="dots3">
+          <span class="text-zinc-300"> #</span> Memasarkan produk/jasa
+          dalam platform fiver, faceboock instagram dan sebagainya
+          <br>
+          <span class="text-zinc-300"> #</span>Jasa Membuat Website statis HTML, CSS, JS
+          <br><br><br>
+        </div>
       </div>
     </div>
   </div>
 
 
+  <div class=" mx-7 lg1:mr-10 lg1:ml-5 lg1:px-20 mt-10 md1:mt-40 py-10 text-xl font-light bg-border relative z-50">
+    <div data-aos="fade-up" data-aos-duration="600">
+      <div data-aos="fade-up" data-aos-duration="800"
+        class="font-bold judul text-4xl xl1:text-6xl px-7 flex items-center relative z-50">
+        <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" class="mr-3 md1:w-[100px] md1:h-[100px]"
+          viewBox="0 0 24 24">
+          <path fill="currentColor"
+            d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3m6.82 6L12 12.72L5.18 9L12 5.28L18.82 9M17 16l-5 2.72L7 16v-3.73L12 15l5-2.73V16Z" />
+        </svg>
+        MY 
+        <br>
+        SCHOOLS
+      </div>
+      <div class="px-7">
+        <!-- 01 -->
+        <div data-aos="fade-up" data-aos-duration="800">
+          <div class=" text-base font-medium text-zinc-500 mt-10 lg1:text-2xl">
+            2019-2022
+          </div>
+          <div class="font-medium ext-xl md1:text-2xl lg1:text-3xl lg1:font-semibold hover:cursor-pointer " id="SmyBtn1" onclick="sekolah1()">
+            SMP TELKOM PURWOKERTO <span class="font-thin text-purple-500"> ˃</span>
+          </div>
+          <br>
+          <div class="text-zinc-500 hidden " id="Sdots1">
+            <span class="text-zinc-300"> #</span> Diundang oleh sekolah untuk
+            menjadi anggota osis divisi TIK dalam hal
+            desain tampilan Instagram osis SMP Telkom
+            <br>
+            <span class="text-zinc-300"> #</span> Memenangkan Juara 1 desain
+            manipulasl photoshop tahun 2022 Tingkat Provinsi dan 2 kali Tingkat
+            Kabupaten
+            <br>
+            <span class="text-zinc-300"> #</span> Mengkuti ekstrakulikuler
+            animasi,dan programing
+            <br>
+            <span class="text-zinc-300"> #</span> Mendapatkan penghargaan 10
+            game terbaik se-angkatan menggunakan G develop 5
+            <br>  <br>
+          </div>
+        </div>
 
-
-  <!-- kompeten -->
-  <div class=" px-7 pt-[100px] lg1:pt-[200px] lg1:grid lg1:grid-cols-2 ">
-
-    <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="1200"
-      class="border-[2px] border-zinc-600 hover:bg-zinc-900  hover:border-indigo-500 duration-500 bg-zinc-800 px-[20px] lg1:px-[40px] py-[25px] lg1:py-[40px] lg1:mr-2 rounded-xl md1:rounded-md lg1:rounded-2xl ">
-      <div class="font-bold text-xl md1:text-2xl lg1:text-3xl">My Project</div>
-      <div class="font-extralight text-xl mt-[10px] text-zinc-200 ">Project yang saya buat selama beberapa tahun
-        terakhir.</div>
-      <a class="duration-300 right-[14%] lg1:right-[54%] mt-8 lg1:mt-10 lg1:text-xl absolute hover:scale-110 hover:text-indigo-600 lg1:font-bold "
-        href="project.html">More
-        ></a>
-      <br><br>
+        <!-- 02 -->
+        <div data-aos="fade-up" data-aos-duration="800">
+          <div class=" text-base font-medium text-zinc-500 lg1:text-2xl ">
+            2022 - Sekarang
+          </div>
+          <div class="font-medium ext-xl md1:text-2xl lg1:text-3xl lg1:font-semibold hover:cursor-pointer " id="SmyBtn2" onclick="sekolah2()">
+            SMKN 1 PURWOKERTO <span class="font-thin text-purple-500"> ˃</span>
+          </div>
+          <br>
+          <div class="text-zinc-500 hidden " id="Sdots2">
+            <span class="text-zinc-300"> #</span> Finalis Lomba Web design
+            mengguanakn teknologi HTML, CSS, JS dan tailwindcss sebagai
+            framework
+            <br><br><br>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="absolute inset-x-0 -top-100 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
 
-    <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="1200"
-      class="border-[2px] border-zinc-600 hover:bg-zinc-900  hover:border-indigo-500 duration-500 bg-zinc-800 px-[20px] lg1:px-[40px] mt-3 lg1:mt-0 py-[25px] lg1:py-[40px] lg1:ml-2 rounded-xl md1:rounded-md lg1:rounded-2xl ">
-      <div class="font-bold text-xl md1:text-2xl lg1:text-3xl">Acchievment</div>
-      <div class="font-extralight text-xl mt-[10px] text-zinc-200 "> penghargaan dan prestasi yang saya peroleh
-        dalam beberapa tahun terakhir.</div>
-      <a class="duration-300 right-[14%] lg1:right-[5%]  mt-8 lg1:mt-10 lg1:text-xl absolute hover:scale-110 hover:text-indigo-600 lg1:font-bold"
-        href="achievment.html">More ></a>
-      <br><br>
-    </div>
+    </div>  
   </div>
+</div>
 
+<a href="project.html">
+<div  data-aos="fade-up" class=" bg-blur mx-7 lg1:px-20 mt-10 text-center hover:bg-zinc-900 hover:border-indigo-500  duration-500  md1:mt-10 py-3 text-xl font-light bg-border relative z-50">
+MY PROJECT >>
+</div>
+</a>
 
   <footer class="text-center pt-[100px] lg1:pt-[200px] ">
-
-    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="800"
-      class="text-3xl lg1:text-5xl">FIND ME ON</div>
-    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1100"
-      class="text-xl lg1:text-2xl lg1:mt-2 text-indigo-400">Feel free contact with me</div>
+    <div class="text-3xl lg1:text-5xl">FIND ME ON</div>
+    <div class="text-xl lg1:text-2xl lg1:mt-2 text-indigo-400">Feel free contact with me</div>
     <!-- icon -->
-    <div data-aos="fade-up" data-aos-offset="500" data-aos-duration="1300"
-      class="px-10  content-center flex justify-center items-center mt-10">
+    <div class="px-10  content-center flex justify-center items-center mt-10">
       <a href="https://www.instagram.com/zzls__/">
         <img class="w-[30px] md1:w-[40px] lg1:w-[50px] mx-4 lg1:mx-8 duration-300 hover:scale-125"
           src="asset/icon/instagram.png" alt="instagram">
@@ -278,13 +319,12 @@
     <div class="bg-gray-100 mt-[400px] items-center py-5 text-black  text-xs ">Design by alwan | coppyright 2023</div>
   </footer>
 
-
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
     // AOS.refresh();
   </script>
-</body>
 
+</body>
 
 </html>
