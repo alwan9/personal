@@ -944,11 +944,6 @@ video {
   padding-right: 3.5rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1195,16 +1190,19 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
   -khtml-user-select: none;
-  -webkit-user-select: none
+  -webkit-user-select: none;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  font-weight: lighter;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   align-items: center;
   background-color: #0c0d0e;
   color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* scroll style */
@@ -1426,9 +1424,14 @@ body {
     border-bottom-right-radius: 9999px;
   }
 
-  .md1\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .md1\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .md1\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md1\:py-10 {
@@ -1436,14 +1439,19 @@ body {
     padding-bottom: 2.5rem;
   }
 
-  .md1\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .md1\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md1\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md1\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md1\:text-6xl {
@@ -1459,11 +1467,6 @@ body {
   .md1\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md1\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md1\:opacity-40 {
@@ -1607,11 +1610,6 @@ body {
     padding-right: 2.5rem;
   }
 
-  .lg1\:px-14 {
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-  }
-
   .lg1\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1640,11 +1638,6 @@ body {
   .lg1\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-  }
-
-  .lg1\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 
   .lg1\:pb-10 {

@@ -10,17 +10,6 @@
 }
 /* library  javascript scrolll */
 
-body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  align-items: center;
-  background-color: #000000;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
-
 .font-fugaz {
   font-family: "Fugaz One", cursive;
 }
@@ -135,57 +124,6 @@ body.darkmode {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* grid-global */
-.grid1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-  background-color: #00000044;
-  grid-gap: 5px;
-  align-items: center;
-  justify-content: center;
-}
-
-.grid2 {
-  justify-content: center;
-  grid-gap: 5px;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-}
-
-.grid-item-manipulation {
-  height: fit-content;
-  float: left;
-}
-
-.grid-manipulation-home {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.grid-manipulation-gallery {
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-}
-
-.grid-drawing {
-  width: fit-content;
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-/ .g-manualart {
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(330px, 330px));
-  grid-gap: 10px;
-  row-gap: 10px;
-}
-
 header {
   /* background-image: url(asset/bg/bg5.png); */
   width: 100vw;
@@ -196,4 +134,42 @@ header {
   width: 75%;
   filter: drop-shadow(5px 5px 10px #000);
   margin: 10%;
+}
+
+/* ================================================= */
+/* ================================================= */
+/* ================================================= */
+/* UNTUK CLOSE POP UP  */
+/* ================================================= */
+/* CSS for the modal (you can include this in your head section) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #bbb;
+  cursor: pointer;
 }

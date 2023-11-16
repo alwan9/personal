@@ -1,5 +1,3 @@
-
-
 // navbar
 const toggleButton = document.getElementsByClassName("toggle-button")[0];
 const navbarLinks = document.getElementsByClassName("navbar-links")[0];
@@ -7,7 +5,6 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 toggleButton.addEventListener("click", () => {
   navbarLinks.classList.toggle("active");
 });
-
 
 // ==========================================================================
 // ==========================================================================
@@ -32,14 +29,12 @@ function read1() {
   }
 }
 
-
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
-
 
 function PT1() {
   let dots1 = document.getElementById("dots1");
@@ -89,10 +84,6 @@ function PT3() {
   }
 }
 
-
-
-
-
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
@@ -136,29 +127,53 @@ function sekolah2() {
 // ==========================================================================
 // ==========================================================================
 // ==========================================================================
-// ==========================================================================// Ambil elemen-elemen dengan atribut data-lang
+// ==========================================================================
+// Ambil elemen-elemen dengan atribut data-lang
 function changeLanguage() {
   var languageToggle = document.getElementById("languageToggle");
   var currentLanguage = languageToggle.innerHTML;
 
-  var contentElements = document.querySelectorAll('.content');
+  var contentElements = document.querySelectorAll(".content");
   if (currentLanguage === "Indonesia") {
-      languageToggle.innerHTML = "English";
-      contentElements.forEach(function (element) {
-          if (element.getAttribute('data-lang') === 'id') {
-              element.style.display = 'none';
-          } else if (element.getAttribute('data-lang') === 'en') {
-              element.style.display = 'block';
-          }
-      });
+    languageToggle.innerHTML = "English";
+    contentElements.forEach(function (element) {
+      if (element.getAttribute("data-lang") === "id") {
+        element.style.display = "none";
+      } else if (element.getAttribute("data-lang") === "en") {
+        element.style.display = "block";
+      }
+    });
   } else {
-      languageToggle.innerHTML = "Indonesia";
-      contentElements.forEach(function (element) {
-          if (element.getAttribute('data-lang') === 'id') {
-              element.style.display = 'block';
-          } else if (element.getAttribute('data-lang') === 'en') {
-              element.style.display = 'none';
-          }
-      });
+    languageToggle.innerHTML = "Indonesia";
+    contentElements.forEach(function (element) {
+      if (element.getAttribute("data-lang") === "id") {
+        element.style.display = "block";
+      } else if (element.getAttribute("data-lang") === "en") {
+        element.style.display = "none";
+      }
+    });
   }
+}
+
+// ==========================================================================
+// ==========================================================================
+// ==========================================================================
+// ==========================================================================
+// ==========================================================================
+// ==========================================================================
+// FITUR POP UP IMG
+// JavaScript for the modal
+function openModal(img) {
+  var modal = document.getElementById("myModal");
+  var modalImg = document.getElementById("modalImg");
+  var captionText = document.getElementById("caption");
+
+  modal.style.display = "block";
+  modalImg.src = img.src;
+  captionText.innerHTML = img.alt;
+}
+
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
 }
