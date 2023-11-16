@@ -52,6 +52,17 @@ body.darkmode {
   -webkit-text-fill-color: transparent;
 }
 
+.text-gradasi1 {
+  background: #5647de;
+  background: radial-gradient(
+    circle farthest-side at top right,
+    #6547de 73%,
+    #1c0282 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* partikel */
 .partikel {
   border-radius: 50%;
